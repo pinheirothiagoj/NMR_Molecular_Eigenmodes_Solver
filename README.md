@@ -15,7 +15,7 @@ Codes Overview
 Code A | Radial Component of Diffusion Propagator
 - Reads input from input.txt.
 - If the code is executed in potential_def = "read", it also reads rdf.txt.
-- Computes numerically the radial component of the diffusion propagator for two magnetic dipoles in real units.
+- Computes numerically the radial component of the diffusion propagator for two magnetic dipoles.
 - Solves the Fokker-Planck equation and the diffusion propagator.
 - Calculates multiexponential time decays (τ's), amplitudes P(τ)'s, the dipole-dipole NMR
   autocorrelation function, and 1/T1(0) = 1/T2(0).
