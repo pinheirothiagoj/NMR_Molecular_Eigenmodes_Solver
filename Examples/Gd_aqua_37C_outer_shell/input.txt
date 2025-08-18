@@ -1,0 +1,25 @@
+# Temperature and diffusion constant
+T   [K]     = 310.15
+D0  [m^2/s] = 2.730733E-09
+
+# Radial discretization
+ri  [m]     = 3.7000E-10
+rf  [m]     = 6.0000E-10
+dr  [m]     = 1.0000E-13
+
+# Gyromagnetic ratios and spin
+gI  [Hz/T]  = 2.675380303797E+08
+gS  [Hz/T]  = 1.760400239898E+11
+S           = 3.5
+
+# Number of eigenmodes
+Km          = 20
+    
+# Eigenmodes discretization
+dx  [1/m]   = 1.0E7
+
+# Harmonic potential spring constant
+Kp  [J/m^2] = 0.0
+
+# Harmonic potential equilibrium distance
+req [m]     = 0.0
