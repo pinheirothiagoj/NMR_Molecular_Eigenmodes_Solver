@@ -32,13 +32,13 @@ import sys
 
 # Spherical thickness discretization
 
-dri = 0.05
+dri = 0.025
 ri = np.arange(0.40,2.00,dri)
 rf = 2.00
 
 # Number of eigenmodes
 
-Km = 15
+Km = 5
 
 ###############################################################################
 # Defining vectors and matrices
