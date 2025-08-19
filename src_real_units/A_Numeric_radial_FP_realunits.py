@@ -152,7 +152,7 @@ if radial_disc == "uniform":
 
 elif radial_disc == "edgebiased":
 
-    dr_min = dr / 100 # lowering 2 orders of magnitude at the edges
+    dr_min = dr / 10 # lowering 1 order of magnitude at the edges
     r = generate_grid_with_dr_min(ri, rf, Nr-1, dr_min, dr)
 
 else:
