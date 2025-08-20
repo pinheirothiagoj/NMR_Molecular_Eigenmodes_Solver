@@ -1,0 +1,28 @@
+# Temperature and diffusion constant
+T   [K]     = 298.15
+D0  [m^2/s] = 4.096441553499546e-10
+
+# Radial discretization
+ri  [m]     = 2.5000E-10
+rf  [m]     = 3.7000E-10
+dr  [m]     = 1.0000E-13
+
+# Gyromagnetic ratios and spin
+gI  [Hz/T]  = 2.675380303797E+08
+gS  [Hz/T]  = 1.760400239898E+11
+S           = 3.5
+
+# Number of eigenmodes
+Km          = 30
+    
+# Eigenmodes discretization
+dx  [1/m]   = 1.0E7
+
+# Definition of the potential of interaction
+potential_def = "read"
+
+# Harmonic potential spring constant
+Kp  [J/m^2] = 10.01167594
+
+# Harmonic potential equilibrium distance
+req [m]     = 3.067250862E-10
