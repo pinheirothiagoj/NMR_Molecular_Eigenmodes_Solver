@@ -31,7 +31,7 @@ import sys
 
 # Module for like spins ("ls") or unlike spins ("us")
 
-mod_spin = "ls"
+mod_spin = "us"
 
 # Execute code A beforehand ("yes" or "no")
 
