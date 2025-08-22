@@ -44,6 +44,8 @@ To obtain reliable and converged results, users should follow three essential be
 
 (3) Eigenvalue discretization (dx): Use a sufficiently small discretization step in the eigenvalue search so that results remain stable when dx is further decreased. This ensures that the eigenvalue grid is fine enough for accurate convergence.
 
+(4) Identification of spherical regions: Each spherical shell assumes that all molecules within it share the same average diffusivity; if diffusivity changes significantly beyond a certain distance, a new region must be defined for those dipoles. Notice that the spherical definition with one dipole in the center also applies to dipole pairs within the same molecule (e.g., in a linear hydrocarbon).
+
 
 Requirements
 ------------
